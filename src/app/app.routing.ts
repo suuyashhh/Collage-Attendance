@@ -11,7 +11,7 @@ const routes: Routes =[
     redirectTo: 'student',
     pathMatch: 'full',
   }, {
-    path: 'Student',
+    path: 'student',
     loadChildren: () => import('./student/student.module').then(m => m.StudentModule)
   }
 ];
