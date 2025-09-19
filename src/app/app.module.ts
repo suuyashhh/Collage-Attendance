@@ -7,8 +7,7 @@ import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { HomeComponent } from './student/home/home.component';
-import { LandingComponent } from './student/landing/landing.component';
+import { LoginComponent } from './login/login/login.component';
 
 @NgModule({
   imports: [
@@ -23,8 +22,7 @@ import { LandingComponent } from './student/landing/landing.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    HomeComponent,
-    LandingComponent,
+    LoginComponent
 
   ],
   providers: [],
